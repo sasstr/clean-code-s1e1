@@ -3,17 +3,21 @@ ul {
   margin:0;
   padding: 0px;
 }
+
 li, h3 {
   list-style:none;
 }
+
 input,button{
   outline:none;
 }
+
 .body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .header {
   width: 500px;
   margin: 0 auto;
@@ -24,19 +28,24 @@ input,button{
 .header__image {
   width: 100%;
 }
+
 .header__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.header { text-align: center;
+
+  .header { text-align: center;
+  }
+
 }
-}
+
 .main-page {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task__label,
 .task__input {
   width: 56%;
@@ -44,9 +53,11 @@ input,button{
   vertical-align: middle;
   flex-grow: 1
 }
+
 .task__wrapper {
   display: flex;
 }
+
 .button {
   background: none;
   border: 0px;
@@ -57,9 +68,11 @@ input,button{
   vertical-align: middle;
   cursor: pointer;
 }
+
 .button:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .main-page__title,
 .task__label--new-task {
@@ -71,6 +84,7 @@ input,button{
   margin: 0;
   text-transform: uppercase;
 }
+
 .task__input {
   margin: 0;
   font-size: 18px;
@@ -83,6 +97,7 @@ input,button{
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .task__input:focus {
   color: #333;
 }
@@ -92,6 +107,7 @@ input,button{
   display: block;
   margin: 0 0 20px;
 }
+
 #new-task {
   width: 318px;
 }
@@ -101,7 +117,6 @@ input,button{
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -111,6 +126,7 @@ input,button{
   margin: 0 10px;
   vertical-align: middle;
 }
+
 .task__label {
   padding-left: 10px;
   box-sizing: border-box;
@@ -118,6 +134,7 @@ input,button{
   width: 226px;
   vertical-align: middle;
 }
+
 .task__input--added {
   width: 226px
 }
@@ -126,6 +143,7 @@ input,button{
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .task__image-btn-delete:hover {
   transform: rotateZ(0);
 }
